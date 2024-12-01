@@ -1,0 +1,25 @@
+{
+  "name": "mgmt-zone-creator",
+  "version": "1.0.0",
+  "description": "Create a batch of management zones for vendors and applications following the recommended format: Vendor-Application-ENVIRONMENT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dyna-gaff/mgmt-zone-creator.git"
+  },
+  "author": "gaff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dyna-gaff/mgmt-zone-creator/issues"
+  },
+  "homepage": "https://github.com/dyna-gaff/mgmt-zone-creator#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "json2csv": "^6.0.0-alpha.2",
+    "request": "2.88.2",
+    "csv": "6.3.10"
+  }
+}
